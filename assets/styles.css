@@ -1,0 +1,135 @@
+.heading {
+  color: black;
+  background-color: plum;
+  font-size: 22px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 20px;
+}
+body {
+  background-color: lavender;
+}
+.text {
+  background-color: plum;
+  width: 200px;
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none;
+  font-size: x-large;
+  color: black;
+}
+.contact {
+  width: 200px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: plum;
+  border: none;
+  font-size: x-large;
+  color: black;
+}
+.phone {
+  width: 200px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: plum;
+  border: none;
+  font-size: x-large;
+  color: black;
+}
+.url {
+  width: 200px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: plum;
+  border: none;
+  font-size: x-large;
+  color: black;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.o {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.x {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#defaultimg {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gbutton {
+  /* display: flex;
+  align-items: center;
+  grid-column: 1/-1;
+  color: black;
+  background-color: plum;
+  width: 100px;
+  height: 50px; */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: plum;
+}
+
+li {
+  display: inline;
+
+  padding: 10px;
+}
+li input:hover {
+  background-color: burlywood;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+  background: #ffffff;
+}
+
+.box__wrapper {
+  border: 2px solid #1a1a1aAA;
+  border-radius: 5px;
+}
+.border_box_left {
+  border-left: 0px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
